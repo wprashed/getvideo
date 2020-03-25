@@ -1,0 +1,236 @@
+<%- include('header'); %>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+    <div class="container">
+
+        <a href="#"><img src="images/logoh52.png"/></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-light text-primary">
+    <div class="container text-center" style="padding-bottom : 25px;">
+      <div class="image-responsive logo">
+        <img src="images/logo240.png"/>
+      </div>
+      <h3 class="text-dark">Download Free Youtube Videos And Audio</h3>
+      <form>
+        <div class="form-group" id="search-bar">
+          <input class="download-input w-75 text-center" type="text" placeholder="Enter the youtube video link...">
+        </div>
+
+        <div class="text-danger error-text">
+            <h5>Please enter valid URl!</h5>
+        </div>
+
+        <div class="form-group">
+          <button type="button" class="btn btn-dark btn-lg" id="download-button" name="button">DOWNLOAD</button>
+        </div>
+      </form>
+
+
+      <div class="banner-ads">
+
+        <!-- Replace your Ad Code here -->
+          <img src="images/banner.png"/>
+        <!-- End Ad Code -->
+
+      </div>
+    </div>
+
+    <div class="text-center">
+      <a class="scroll-down" href="#about">
+        <i class="fas fa-chevron-circle-down fa-3x"></i>
+      </a>
+    </div>
+  </header>
+
+
+  <section id="video-download">
+
+<!-- Loader Icon -->
+  <div class="container loader-icon-view">
+    <div class="row">
+      <div class="loader-icon">
+        <div class="lds-cube"><div></div><div></div><div></div><div></div></div>
+        <h4>Loading...</h4>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="container download-view">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+
+          <div class="content-video" style="margin-bottom: 15px;">
+            <div class="row">
+              <div class="video-thumb col-sm-4">
+                <img class="thumb-img" src="" />
+              </div>
+
+              <div class="video-desc col-sm-8">
+                <h5 class="title"></h5>
+                <small class="text-muted duration"></small>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <div class="content-group">
+            <h4 class="text-center"><strong>Download Video With Audio</strong></h4>
+
+              <table class="table text-center borderless">
+                <thead>
+                  <tr class="table-light">
+                    <th scope="col">Quality</th>
+                    <th scope="col">Format</th>
+                    <th scope="col">Download</th>
+                  </tr>
+                </thead>
+                <tbody class="videoAudioLink">
+
+                </tbody>
+              </table>
+          </div>
+
+          <div class="text-center" style="margin: 20px;">
+            <div class="banner-ads">
+
+              <!-- Replace your Ad Code here -->
+                <img src="images/banner.png"/>
+              <!-- End Ad Code -->
+
+            </div>
+          </div>
+
+          <div class="content-group">
+            <h4 class="text-center"><strong>Download Video Only</strong></h4>
+              <table class="table text-center borderless">
+                <thead>
+                  <tr class="table-light">
+                    <th scope="col">Quality</th>
+                    <th scope="col">Format</th>
+                    <th scope="col">Download</th>
+                  </tr>
+                </thead>
+                <tbody class="videoLink">
+
+                </tbody>
+              </table>
+          </div>
+
+          <div class="text-center" style="margin: 20px;">
+            <div class="banner-ads">
+              <!-- Replace your Ad Code here -->
+                <img src="images/banner.png"/>
+              <!-- End Ad Code -->
+            </div>
+          </div>
+
+          <div class="content-group">
+            <h4 class="text-center"><strong>Download Audio Only</strong></h4>
+            <table class="table text-center borderless">
+              <thead>
+                <tr class="table-light">
+                  <th scope="col">Quality</th>
+                  <th scope="col">Format</th>
+                  <th scope="col">Download</th>
+                </tr>
+              </thead>
+              <tbody class="audioLink">
+
+              </tbody>
+            </table>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about" class="bg-info text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h2>About this page</h2>
+          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+        </div>
+        <div class="image-view">
+          <img class="image-responsive" src="images/img_3.png"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-danger text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h2>Services we offer</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        </div>
+        <div class="image-view">
+          <img class="image-responsive" src="images/img_1.png"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-success text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact us</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        </div>
+        <div class="image-view">
+          <img class="image-responsive" src="images/img_2.png"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white"> <%- config.footerText %> </p>
+    </div>
+  </footer>
+
+  <!-- jQuery Plugin JavaScript -->
+  <script src="/plugin/jquery/jquery.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/plugin/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="/javascripts/script.js"></script>
+
+</body>
+
+</html>

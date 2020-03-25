@@ -1,0 +1,131 @@
+/*
+getVideo - v1.0.0
+Sameera Damith
+damith.sameera1@gmail.com
+*/
+
+body {
+    font-family:'Hind Guntur',sans-serif;
+}
+
+header {
+  padding: 140px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 120px 0 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner-ads {
+    display: none;
+  }
+}
+
+section {
+  padding: 80px 0;
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+.download-input {
+  background: #fff;
+  color: #000;
+  border: 0;
+	outline: 0;
+	padding: 18px 14px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .2);
+  margin: 20px;
+}
+
+.image-view {
+  display: block;
+  margin: 0 auto;
+}
+
+.image-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.scroll-down {
+  color: #2e2e2e;
+}
+
+.scroll-down:hover {
+  color: #000;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.content-group {
+  margin-top: 22px;
+}
+
+.video-thumb {
+  padding: 5px;
+}
+
+.video-desc {
+  padding-left: 40px;
+  padding-top: 15px;
+}
+
+@media (max-width: 575.98px) {
+  .content-video {
+    text-align: center;
+  }
+}
+
+.loader-icon {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.lds-cube {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 74px;
+}
+.lds-cube div {
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  width: 13px;
+  background: #2e2e2e;
+  animation: lds-cube 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-cube div:nth-child(1) {
+  left: 6px;
+  animation-delay: -0.36s;
+}
+.lds-cube div:nth-child(2) {
+  left: 26px;
+  animation-delay: -0.24s;
+}
+.lds-cube div:nth-child(3) {
+  left: 45px;
+  animation-delay: -0.12s;
+}
+.lds-cube div:nth-child(4) {
+  left: 64px;
+  animation-delay: 0;
+}
+@keyframes lds-cube {
+  0% {
+    top: 6px;
+    height: 51px;
+  }
+  50%, 100% {
+    top: 19px;
+    height: 26px;
+  }
+}

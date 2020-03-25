@@ -1,0 +1,56 @@
+<%- include('header'); %>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+
+        <a href= <%= config.url %> ><img src="images/logoh52.png"/></a>
+
+    </div>
+  </nav>
+
+  <header class="bg-light text-primary">
+    <div class="container text-center" style="padding-bottom : 25px;">
+      <div class="image-responsive logo">
+        <a href= <%= config.url %> ><img src="images/logo240.png"/></a>
+      </div>
+      <h3>Uh oh! That's an error. The page you've requested can't be found.</h3>
+
+      <p style="font-size: 130px;"><strong>404</strong></p>
+
+      <a href= <%= config.url %> ><h5>BACK TO HOME PAGE</h5></a>
+      <div class="banner-ads">
+        <!-- Replace your Ad Code here -->
+          <img src="images/banner.png"/>
+        <!-- End Ad Code -->
+      </div>
+    </div>
+
+
+  </header>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white"> <%- config.footerText %> </p>
+    </div>
+  </footer>
+
+
+  <!-- jQuery Plugin JavaScript -->
+  <script src="/plugin/jquery/jquery.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/plugin/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/plugin/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="/javascripts/script.js"></script>
+
+</body>
+
+</html>
